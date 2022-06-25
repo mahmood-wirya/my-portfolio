@@ -11,10 +11,11 @@ h1 {
   font-size:48px;
 }
 p {
-  font-family: 'Lato', sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
   font-size:14px;
   color: #333333;
+  opacity: 75%;
 }
 
 .header {
@@ -59,6 +60,7 @@ p {
   height:20vh;
   text-align:center;
   background-color: white;
+  
 }
 
 /* Animation */
