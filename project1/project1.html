@@ -20,7 +20,7 @@
   <body>
     <div class="header">
       <div class="d-flex flex-row mb-3 p-3">
-        <a href="/my-proftolio/index.html">
+        <a href="/my-portfolio/index.html">
           <button type="button" class="btn btn-light">
             <i class="bi bi-arrow-left"> </i> Home
           </button>
@@ -42,6 +42,7 @@
                       >Image link</span
                     >
                     <input
+                      id="url"
                       type="text"
                       class="form-control"
                       aria-label="Sizing example input"
@@ -59,6 +60,7 @@
                       >Width</span
                     >
                     <input
+                      id="width"
                       type="text"
                       class="form-control"
                       aria-label="Sizing example input"
@@ -74,6 +76,7 @@
                       >Height</span
                     >
                     <input
+                      id="height"
                       type="text"
                       class="form-control"
                       aria-label="Sizing example input"
@@ -83,7 +86,9 @@
                 </div>
               </div>
             </div>
-            <a href="#" class="btn btn-primary btn-lg"> Resize </a>
+            <a href="" onclick="resize()" class="btn btn-primary btn-lg">
+              Resize
+            </a>
           </div>
         </div>
       </div>
@@ -133,5 +138,6 @@
     <div class="content flex">
       <p>Made by Mahmood-Wirya</p>
     </div>
+    <script src="/my-portfolio/project1/index.js"></script>
   </body>
 </html>
