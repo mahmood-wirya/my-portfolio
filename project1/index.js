@@ -4,10 +4,16 @@ function resize(){
     let height = document.getElementById('height').value;
 
     let lastindex = url.lastIndexOf('/');
-    //
+    
     let lastpart = url.substring(lastindex);
-    let generatedURL = 'https://source.unsplash.com'+lastpart+'/'+width+'x'+height;
-    alert(generatedURL);
+    // let generatedURL =`https://source.unsplash.com${lastPart}/${width}x${height}`;
+    let generatedURL = "https://source.unsplash.com"+lastpart+"/"+width+"x"+height;
+
+    let myImage=getElementById('myImage');
+    myImage.src= generatedURL;
+    myImage.style.display='block';
+    
+ alert(generatedURL);
 
     
 }

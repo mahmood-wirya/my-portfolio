@@ -18,6 +18,8 @@ p {
   opacity: 75%;
 }
 
+
+
 .header {
   position:relative;
   text-align:center;
@@ -42,7 +44,7 @@ p {
 .flex { /*Flexbox for containers*/
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   text-align: center;
 }
 
