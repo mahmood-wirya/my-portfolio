@@ -7,15 +7,20 @@ function resize(){
     
     let lastpart = url.substring(lastindex);
     // let generatedURL =`https://source.unsplash.com${lastPart}/${width}x${height}`;
+    
     let generatedURL = "https://source.unsplash.com"+lastpart+"/"+width+"x"+height;
-
-    let myImage=getElementById('myImage');
-    myImage.src= generatedURL;
-    myImage.style.display='block';
     
- alert(generatedURL);
-
+    getElementById("UrlWithText").innerHTML=generatedURL;
+//     let myImage=getElementById('myImage');
+//     let myImageString = string(generatedURL);
+//     myImage.src= myImageString;
+//     myImage.style.display='block';
     
+//  console.log(generatedURL);
+    
+    
+
+    // alert(generatedURL);
 }
 
 //unsplash.com/photos/RfoISVdKM4U
