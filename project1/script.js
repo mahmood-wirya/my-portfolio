@@ -1,7 +1,7 @@
 function resize(){
-    let url = document.getElementById('url').value;
-    let width = document.getElementById('width').value;
-    let height = document.getElementById('height').value;
+    let url = Document.getElementById('url').value;
+    let width = Document.getElementById('width').value;
+    let height = Document.getElementById('height').value;
 
     let lastindex = url.lastIndexOf('/');
     
